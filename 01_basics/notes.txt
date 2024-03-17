@@ -1,0 +1,7 @@
+we will see documentation on
+
+1. mdn web docs
+
+
+2. TC39.es
+# https://tc39.es/ecma262/
