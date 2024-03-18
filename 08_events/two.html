@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>events 2</title>
 </head>
 <body>
     <h1>coding practice</h1>
+    <button id="stop">stop</button>
 </body>
+<script>
+    
+    // the setTimeout will give result only once 
+    
+    // const sayAyush = function() {
+    //     console.log("ayush");
+    // }
+    // setTimeout(sayAyush , 2000);
+
+    const changeName = function(){
+        document.querySelector('h1').innerHTML = "this code is just a beginning "
+    }
+    const changeText = setTimeout(changeName, 2000);
+    document.querySelector('button').addEventListener('click',function(){
+        clearTimeout(changeText)
+        console.log("stopped");
+    })
+    // setTimeout(function() {
+    //     console.log("ayush");
+    // }, 2000);
+</script>
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events 3</title>
+</head>
+<body>
+    <h1>coding practice</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // the setInterval will give you multiple result
+    // the str is parameter which will store the the 'hi parameter' 
+
+    const sayDate = function(str){ 
+        console.log(str,Date.now());
+    }
+
+    let showDate;
+
+    const startInt = function(){
+        console.log("started");
+       showDate = setInterval(sayDate,1000,"Hello")
+
+    };
+    document.querySelector('#start').addEventListener('click',startInt)
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(showDate)
+        console.log("stoppped");
+    })
+
+    // let intervalId; // Variable to hold the interval ID
+
+  // Function to start the interval
+//   const startInterval = function() {
+//     console.log("started");
+//     intervalId = setInterval(sayDate, 1000, "hi");
+//   };
+
+//   // Function to stop the interval
+//   const stopInterval = function() {
+//     clearInterval(intervalId);
+//     console.log("stopped");
+//   };
+
+//   // Add event listener to the start button
+//   document.getElementById("start").addEventListener("click", startInterval);
+
+//   // Add event listener to the stop button
+//   document.getElementById("stop").addEventListener("click", stopInterval);
+</script>
+</html>
