@@ -25,3 +25,17 @@
 ### guess the number
 
 [click here](https://stackblitz.com/edit/stackblitz-starters-ingmc5)
+
+## project 5
+
+### generate the random color
+
+[click here](https://stackblitz.com/edit/stackblitz-starters-cofccx?description=HTML/CSS/JS%20Starter&terminalHeight=10&title=Static%20Starter
+)
+
+## project 6
+
+###  clicked key details viewer
+
+[click here](https://stackblitz.com/edit/stackblitz-starters-zqfsqy?description=HTML/CSS/JS%20Starter&terminalHeight=10&title=Static%20Starter
+)
